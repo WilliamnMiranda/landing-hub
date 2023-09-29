@@ -1,3 +1,5 @@
 import styled from "styled-components";
 
-export const ContainerMain = styled.main``;
+export const ContainerMain = styled.main`
+  overflow: hidden;
+`;
