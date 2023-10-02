@@ -12,6 +12,12 @@ export const Header = styled.header`
   @media (max-width: 1220px) {
     padding: ${({ theme }) => theme.padding.breakpoint1220};
   }
+  @media (max-width: 800px) {
+    padding: ${({ theme }) => theme.padding.breakpoint800};
+    height: auto;
+    overflow: none;
+    padding: 0px 20px 40px 20px;
+  }
 `;
 export const ListMenuHeader = styled.div`
   background-color: red;
@@ -19,16 +25,36 @@ export const ListMenuHeader = styled.div`
 export const InfoHeader = styled.section`
   display: flex;
   justify-content: space-between;
+  @media (max-width: 800px) {
+    flex-direction: column-reverse;
+  }
 `;
-export const ContainerImage = styled.div``;
+export const ContainerImage = styled.div`
+  @media (max-width: 800px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+`;
 export const Image = styled.img`
   object-fit: cover;
   width: 670px;
   height: 590px;
+  @media (max-width: 800px) {
+    object-fit: contain;
+    width: 400px;
+    height: 400px;
+  }
 `;
 export const ContainerTextHeader = styled.div`
   position: relative;
   top: 20%;
+  @media (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 export const MainText = styled.h1`
   font-size: 3.375em;
@@ -37,6 +63,9 @@ export const MainText = styled.h1`
   font-weight: 800;
   @media (max-width: 1669px) {
     font-size: 2.8em;
+  }
+  @media (max-width: 800px) {
+    text-align: center;
   }
 `;
 export const TextAlterColor = styled.span`

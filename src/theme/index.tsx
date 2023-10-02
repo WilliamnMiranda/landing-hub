@@ -12,6 +12,7 @@ const Theme = {
     default: "0px 200px",
     breakpoint1560: "0px 130px",
     breakpoint1220: "0px 70px",
+    breakpoint800: "0px 0px",
   },
   border: {
     radius: "15px",
