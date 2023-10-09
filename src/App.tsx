@@ -4,6 +4,7 @@ import * as C from "./styles.tsx";
 import Header from "./componentes/header/index.tsx";
 import Enterprises from "./componentes/enterprises/index.tsx";
 import Software from "./componentes/software/index.tsx";
+import Options from "./componentes/options/index.tsx";
 function App() {
   return (
     <C.ContainerMain>
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Enterprises />
       <Software />
+      <Options />
     </C.ContainerMain>
   );
 }

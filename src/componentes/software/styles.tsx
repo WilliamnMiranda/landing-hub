@@ -44,7 +44,7 @@ export const ContainerCards = styled.section`
 export const Card = styled.article`
   box-sizing: border-box;
   width: 280px;
-  height: 280px;
+  height: 260px;
   box-shadow: 0px 10px 60px 0px #262d7614;
   display: flex;
   align-items: center;
