@@ -5,6 +5,7 @@ import Header from "./componentes/header/index.tsx";
 import Enterprises from "./componentes/enterprises/index.tsx";
 import Software from "./componentes/software/index.tsx";
 import Options from "./componentes/options/index.tsx";
+import Class from "./componentes/class/index.tsx";
 function App() {
   return (
     <C.ContainerMain>
@@ -13,6 +14,7 @@ function App() {
       <Enterprises />
       <Software />
       <Options />
+      <Class />
     </C.ContainerMain>
   );
 }

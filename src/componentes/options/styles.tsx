@@ -10,7 +10,7 @@ export const ContainerOptions = styled.section`
   gap: 15px;
   align-items: center;
   justify-content: center;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
     @media (max-width: 1400px) {
     padding: ${({ theme }) => theme.padding.breakpoint1560};
   }
